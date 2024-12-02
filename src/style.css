@@ -1,0 +1,17 @@
+/* Estilo para a pequena imagem redonda */
+.small-round-img {
+  position: absolute;
+  margin: 150px  ; /* Ajuste a altura conforme necessário */
+  left: 10%; /* Centraliza horizontalmente */
+
+  width: 200px; /* Define o tamanho da imagem */
+  height: 200px; /* Define o tamanho da imagem */
+  border-radius: 50%; /* Torna a imagem redonda */
+  border: 3px solid #fff; /* Borda branca para destaque */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+  z-index: 10; /* Garante que fique acima da imagem principal */
+}
+.carousel-item{
+   width: 300px; /* Define o tamanho da imagem */
+  height: 400px; /* Define o tamanho da imagem */
+}
